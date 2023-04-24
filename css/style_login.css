@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 100px;
+  border: 2px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: white;
+  background-color: rgb(223, 227, 233);
+}
+
+/*Color del cabeza de pagina*/
+header{
+  background-color: rgb(27, 147, 228);
+}
+
+/*Cofiguracion Logo */
+header .logo{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(245, 248, 252);
+  font-size: 1.6em;
+  
+}
+
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/*Configuracion de link cabeza de pagina*/
+header a{
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(58, 85, 243);
+}
+/*Color de link de cabeza*/
+header a:hover{
+  color: rgb(58, 85, 243);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(27deg, #34495e 50%,#2c3e50 50%);
+}
+
+.form-body {
+  width: 400px;
+  min-width: 300px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: solid 1px #2980b9;
+  margin: 10px;
+}
+
+.form-body img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.form-body input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-body input[type="password"] {
+  margin-top: 20px;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, .596);
+}
+
+.form-body input:hover {
+  transition: .5s;
+  border: 1px solid #2980b9;
+  color:#2498db;
+}
+
+.form-body button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 78%;
+  background: transparent;
+  color: #b9c4c6;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #2980b9;
+  transition:  all .5s ease;
+  
+}
+
+.form-body button:hover {
+  color: #d5dbdd;
+  border: 2px solid #3498db;
+  background:linear-gradient(#34495e,#2c3e50);
+}
+
